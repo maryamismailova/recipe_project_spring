@@ -10,6 +10,7 @@ public class Notes {
 
     @Lob
     private String recipeNotes;
+//    @OneToOne(mappedBy = "notes")
     @OneToOne
     private Recipe recipe;
 

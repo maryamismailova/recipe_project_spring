@@ -36,4 +36,8 @@ public class Category {
     public void setRecipes(Set<Recipe> recipes) {
         this.recipes = recipes;
     }
+
+    public String toString(){
+        return this.description;
+    }
 }

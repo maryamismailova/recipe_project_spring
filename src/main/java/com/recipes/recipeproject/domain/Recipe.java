@@ -1,5 +1,6 @@
 package com.recipes.recipeproject.domain;
 
+import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

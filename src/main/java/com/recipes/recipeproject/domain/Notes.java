@@ -18,4 +18,7 @@ public class Notes {
 //    @OneToOne
     private Recipe recipe;
 
+    public String toString(){
+        return recipeNotes;
+    }
 }

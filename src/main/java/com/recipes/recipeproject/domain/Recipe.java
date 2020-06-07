@@ -34,7 +34,7 @@ public class Recipe {
      *
      * Recipe is a parent object!
      */
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "recipe")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "recipe", fetch = FetchType.EAGER)
     Set<Ingredient> ingredients= new HashSet<>();
 
     @OneToOne(cascade = CascadeType.ALL)

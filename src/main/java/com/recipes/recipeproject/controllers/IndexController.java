@@ -1,6 +1,7 @@
 package com.recipes.recipeproject.controllers;
 
 import com.recipes.recipeproject.domain.Category;
+import com.recipes.recipeproject.domain.Ingredient;
 import com.recipes.recipeproject.domain.Recipe;
 import com.recipes.recipeproject.domain.UnitOfMeasure;
 import com.recipes.recipeproject.repositories.CategoryRepository;
